@@ -1,5 +1,7 @@
 import requests
+
 import json
+=======
 
 def search_schools(api_key, school_name):
     base_url = 'https://api.data.gov/ed/collegescorecard/v1/'
