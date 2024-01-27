@@ -26,7 +26,7 @@ const SearchTab = () => {
   });
 
   const onSubmit = async (data: TSignUpSchema) => {
-    const response = await fetch("/api/signup", {
+    const response = await fetch("/api/getColleges", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
